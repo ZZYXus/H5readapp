@@ -1,0 +1,221 @@
+<html>
+    <head>
+        <link href="https://cdn.bootcss.com/minireset.css/0.0.2/minireset.css" rel="stylesheet">
+        <link href="./css/index.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    </head>
+    <body>
+        <div id="root" class="container"><!--根目录-->
+            <div class="m-actical-action">
+                <div class="artical-action-middle"  id="action-middle"></div>
+            </div>
+            <div id="top-nav" class="top-nav" style="display:none"><!--顶部导航-->
+                <div class="icon-back"></div>
+                <div class="nav-title">返回书架</div>
+            </div>
+            <div id="fition-title"></div><!--阅读器标题-->
+            <div id="fition-content" class="m-read-content"><!--阅读器内容-->
+                <h4>调试页面</h4>
+                <p> 哪怕你运气好，下半辈子重新来过，变成了人类。你必须经历18年的艰苦学习，大学毕业，然后走向社会。可
+                    突然发现才能做1000来块的事情，从前学的东西就是放屁，跟生活一点关系都没有。 你必须忍受领导的白眼，
+                    同事的陷害，女友无止境的购买欲，家长毫不考虑你感受的逼婚。 运气好你在30岁以 前，就 找到了二手的女朋
+                    友结婚，但别人的老妈要一套你要到60岁不吃不喝才买得起的房子。 你背负着沉重的房贷，你开始了赚奶粉钱的生活，
+                    每天工作得像狗一样，回到家还要做私活补贴家用。这样子一直奋斗到60岁，把房贷刚刚还完，你就直接给累死了。
+                     你的老婆改嫁，儿子忙着重复你的人生，清明
+                    甚至都会忘记去给你扫墓…… 比较起来，你觉得自己刚刚过去4年的狗生 ——狂笑 《猎魂》</p>
+                    <p> 哪怕你运气好，下半辈子重新来过，变成了人类。你必须经历18年的艰苦学习，大学毕业，然后走向社会。可
+                     突然发现才能做1000来块的事情，从前学的东西就是放屁，跟生活一点关系都没有。 你必须忍受领导的白眼，
+                    同事的陷害，女友无止境的购买欲，家长毫不考虑你感受的逼婚。 运气好你在30岁以 前，就 找到了二手的女朋
+                    友结婚，但别人的老妈要一套你要到60岁不吃不喝才买得起的房子。 你背负着沉重的房贷，你开始了赚奶粉钱的生活，
+                    每天工作得像狗一样，回到家还要做私活补贴家用。这样子一直奋斗到60岁，把房贷刚刚还完，你就直接给累死了。
+                    你的老婆改嫁，儿子忙着重复你的人生，清明
+                    甚至都会忘记去给你扫墓…… 比较起来，你觉得自己刚刚过去4年的狗生 ——狂笑 《猎魂》</p>
+                   <p> 哪怕你运气好，下半辈子重新来过，变成了人类。你必须经历18年的艰苦学习，大学毕业，然后走向社会。可
+                    突然发现才能做1000来块的事情，从前学的东西就是放屁，跟生活一点关系都没有。 你必须忍受领导的白眼，
+                    同事的陷害，女友无止境的购买欲，家长毫不考虑你感受的逼婚。 运气好你在30岁以 前，就 找到了二手的女朋
+                    友结婚，但别人的老妈要一套你要到60岁不吃不喝才买得起的房子。 你背负着沉重的房贷，你开始了赚奶粉钱的生活，
+                    每天工作得像狗一样，回到家还要做私活补贴家用。这样子一直奋斗到60岁，把房贷刚刚还完，你就直接给累死了。
+                    你的老婆改嫁，儿子忙着重复你的人生，清明
+                    甚至都会忘记去给你扫墓…… 比较起来，你觉得自己刚刚过去4年的狗生 ——狂笑 《猎魂》</p>
+            </div>
+        
+            <div id="m-button" class="m-button">
+                    <ul class="u-tab">
+                        <li class="prev-butn">上一章</li>
+                        <li class="next-butn">下一章</li>
+                    </ul>
+            </div>
+            <div class="bottom-nav " style="display:none">
+                <div id="menu-button" class="item">
+                    <div class="item-wrap">
+                        <div class="icon-menu"></div>
+                        <div class="icon-text">目录</div>
+                    </div>
+                </div>
+                <div id="font-button" class="item font-button">
+                    <div class="item-wrap">
+                        <div class="icon-font"></div>
+                        <div class="icon-text">字体</div>
+                    </div>
+                </div>
+                <div id="night-button" class="item font-button">
+                    <div class="item-warp" id="night_icon">
+                        <div class="icon-night"></div>
+                        <div class="icon-text night-day-switches">夜间</div>
+                     </div>                        
+                 </div>
+            </div>
+            <div class="nav-pannal-bk font-container" style="display:none"></div>
+            <div class="nav-pannal font-container" id="font-container" style="display:none">
+                <div class="child-mod">
+                    <span>字号</span>
+                    <button id="large-button" class="font-size-button">大</button>
+                    <button id="small-button" class="font-size-button">小</button>
+                </div>
+                <div class="child-mod">
+                    <span>背景</span>
+                    <div class="bk-container color-container">
+                        <div class="bk-container-current 1_first" id="1_first"></div>
+                    </div>
+                    <div class="bk-container color-container">
+                        <div class="bk-container-current 2_second" style="display:none"></div>
+                    </div>
+                    <div class="bk-container color-container">
+                        <div class="bk-container-current 3_thiry" style="display:none"></div>
+                    </div>
+                    <div class="bk-container color-container">
+                        <div class="bk-container-current 4_fourth" style="display:none"></div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+        <script type="text/javascript" src="./js/jquery-3.2.1.js"></script>
+        <script src="https://cdn.bootcss.com/jQuery-JSONP/2.4.0/jquery.jsonp.js"></script>
+        <script>
+            (function(){
+                //本地存储的封装
+                var util=(function(){
+                    var pefx='html_read_';//设置特定字段，方式本地存储命名冲突
+                    var storageGetter=function(key){
+                        return localStorage.getItem(pefx+key);
+                    }
+                    var storageSetter=function(key,value){
+                        return localStorage.setItem(pefx+key,value);
+                    }
+                    return{
+                        storageGetter:storageGetter,
+                        storageSetter:storageSetter
+                    }
+                })();
+                var rootContainer=$("#fition-content");
+                var Win=$(Window);
+                var Doc=$(Document);
+                //缓存dom
+                var Dom={
+                    top_nav:$('#top-nav'),
+                    bottom_nav:$('.bottom-nav'),
+                    font_container:$(".font-container")
+                }
+                //缓存字体大小
+                var initFont=util.storageGetter('font-size');
+                initFont=parseInt(initFont);
+                if(!initFont){
+                    initFont=14;
+                }
+                rootContainer.css('font-size',initFont);
+                //实现入口函数
+                function main(){
+
+                    
+                    evenHandle();
+                    
+                }
+                //实现跟服务端的数据交互
+                function readMolde(){}
+                //渲染UI结构
+                function readBaseFram(){}
+                //实现事件绑定
+                function evenHandle(){
+                    $("#action-middle").click(function(){
+                        if(Dom.top_nav.css('display')=='none'){
+                            Dom.top_nav.show();
+                            Dom.bottom_nav.show();
+                        }
+                        else{
+                            Dom.top_nav.hide();
+                            Dom.bottom_nav.hide();
+                            Dom.font_container.hide();
+                        }
+                    });
+                    $(".font-button").click(function(){
+                            if(Dom.font_container.css('display')=='none'){
+                                Dom.font_container.show();
+                            }
+                            else{
+                                Dom.font_container.hide();
+                            }
+                    });
+                    $("#large-button").click(function(){
+                        if(initFont>20){
+                            return;
+                        }
+                            initFont+=1;
+                            rootContainer.css('font-size',initFont);
+                            util.storageSetter('font-size',initFont);
+                    });
+                    $("#small-button").click(function(){
+                        if(initFont<12){
+                            return;
+                        }
+                        initFont-=1;
+                        rootContainer.css('font-size',initFont);
+                        util.storageSetter('font-size',initFont);
+                    });
+                    $("#night-button").click(function(){
+                        if($(".night-day-switches").text()=='夜间'){
+                            rootContainer.css('background-color','#000');
+                             $('.night-day-switches').text('白天');
+                                $('.bk-container-current').hide();
+                                $('.4_fourth').show();
+                            }
+                        else if($(".night-day-switches").text()=='白天')
+                        {
+                            rootContainer.css('background-color','#e9dfc7');
+                             $('.night-day-switches').text('夜间');
+                             $('.bk-container-current').hide();
+                             $('.1_first').show();
+                        } 
+
+                    });
+                    $(".1_first").click(function(){
+                        console.log("dededede");
+                    });
+                    $(".2_second").click(function(){
+                        console.log("wwwwwwww");
+                    });
+                    $(".3_thiry").click(function(){
+                        rootContainer.css('background-color','#cdefce');
+                        $('.bk-container-current').hide();
+                        $('.3_thiry').show();
+                    });
+                    $(".4_fourth").click(function(){
+                        rootContainer.css('background-color','#000');
+                        $('.bk-container-current').hide();
+                        $('.4_fourth').show();
+                    });
+                    Win.scroll(function(){
+                        Dom.top_nav.hide();
+                        Dom.bottom_nav.hide();
+                        Dom.font_container.hide();
+                    });
+
+                }
+                main();
+            })();
+        </script>
+    </body>
+</html>
